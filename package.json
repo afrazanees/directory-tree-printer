@@ -1,0 +1,27 @@
+{
+  "name": "treeprint",
+  "version": "1.0.0",
+  "description": "Print a directory as a tree, similar to the Unix `tree` command.",
+  "bin": {
+    "treeprint": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "tree",
+    "cli",
+    "directory",
+    "filesystem"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.4"
+  }
+}
